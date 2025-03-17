@@ -1,12 +1,3 @@
-from google.colab import drive
-drive.mount('/content/drive')
-
-!pip install git+https://github.com/crowsonkb/k-diffusion.git
-
-!pip install git+https://github.com/openai/consistencydecoder.git
-
-!pip install omegaconf
-
 import importlib
 
 def exists(x):
